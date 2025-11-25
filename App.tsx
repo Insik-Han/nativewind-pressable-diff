@@ -1,7 +1,7 @@
 import { Pressable, Text, useWindowDimensions, View } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
-import './global.css';
 import { useState } from 'react';
+import './global.css';
 
 const PressableWithPressedState = () => {
   const [pressed, setPressed] = useState(false);
@@ -70,7 +70,7 @@ export default function App() {
             <View
               className="rounded-md p-2"
               style={{
-                width: (windowWidth - 32 - 24) / 3,
+                width: (windowWidth - 32 - 32) / 3,
               }}
               key={index}
             >
